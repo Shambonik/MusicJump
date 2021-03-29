@@ -1,0 +1,245 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:3:1-6:12
+MERGED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-63:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\54cbbc41b46dfd9189c0838b9ac5d068\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\949316cac1b8fb88750db4287fef4c28\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\dd19dae50ae2c6e9ea05ca2be2926aca\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\b6a735b64a202406b78444a139d8a46f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\f94bd523d129892c79ca5409c3de4d63\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\43cd160affc02041044b0a5c4c2959ba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\bb97e15df690ac997aada9d85c7bd49e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\d59203e745f44e94ea49915dfc66ad80\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\33e350b07617994540003140cd60925e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\6df8b04d93c3a03c6070e05e1f385b84\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\496144a394434caf16177bcf4dfd1d2f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\b2519d6abbe888dd107b059e30e76986\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\18d0fc37bb1eb213ab7112d3f2c5f824\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\72df3a5835fcc5a2229db9b0096c49ad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\ee722d613888e1da015d42e2c07806f5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\78f3fae7bf7f2fd65b37df5c09fda06a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\91d9e6879cc69bcf39c064af78be5b8d\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\2f0c585fefcbe0d546de76a98e6f2248\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\9f283f6094ae5cf90d98669bea65eb34\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\e4768a62e01b1627fa13e2327ceeed86\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\aeb8b452d129a0a56e3e8e29a7599694\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\fadf032843446f39f7071522767788ed\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\930ea177e67a4eb003da2570e03981b4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\caa74cf91fb344f2fea01d3f7760cd4c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\67b429cf43cc481eb1f606095240a0d2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\87bb202e96ab0d7cdb9ea3c05a751914\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\195ab011b2e44eb02fb135782224d225\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:3:1-6:12
+	package
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:3:70-100
+		INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:3:1-6:12
+		INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:3:101-147
+	android:versionCode
+		INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:3:1-6:12
+		INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:3:11-69
+	android:installLocation
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:3:148-188
+supports-screens
+ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:4:3-163
+	android:largeScreens
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:4:78-105
+	android:smallScreens
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:4:21-48
+	android:normalScreens
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:4:49-77
+	android:xlargeScreens
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:4:106-134
+	android:anyDensity
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:4:135-160
+application
+ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:5:3-83
+MERGED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-61:19
+MERGED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-61:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\54cbbc41b46dfd9189c0838b9ac5d068\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\54cbbc41b46dfd9189c0838b9ac5d068\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\78f3fae7bf7f2fd65b37df5c09fda06a\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\78f3fae7bf7f2fd65b37df5c09fda06a\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\91d9e6879cc69bcf39c064af78be5b8d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\91d9e6879cc69bcf39c064af78be5b8d\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\78f3fae7bf7f2fd65b37df5c09fda06a\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:5:16-48
+	android:icon
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml:5:49-80
+uses-sdk
+INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+MERGED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\54cbbc41b46dfd9189c0838b9ac5d068\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\54cbbc41b46dfd9189c0838b9ac5d068\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\949316cac1b8fb88750db4287fef4c28\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\949316cac1b8fb88750db4287fef4c28\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\dd19dae50ae2c6e9ea05ca2be2926aca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\dd19dae50ae2c6e9ea05ca2be2926aca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\b6a735b64a202406b78444a139d8a46f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\b6a735b64a202406b78444a139d8a46f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\f94bd523d129892c79ca5409c3de4d63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\f94bd523d129892c79ca5409c3de4d63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\43cd160affc02041044b0a5c4c2959ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\43cd160affc02041044b0a5c4c2959ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\bb97e15df690ac997aada9d85c7bd49e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\bb97e15df690ac997aada9d85c7bd49e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\d59203e745f44e94ea49915dfc66ad80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\d59203e745f44e94ea49915dfc66ad80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\33e350b07617994540003140cd60925e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\33e350b07617994540003140cd60925e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\6df8b04d93c3a03c6070e05e1f385b84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\6df8b04d93c3a03c6070e05e1f385b84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\496144a394434caf16177bcf4dfd1d2f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\496144a394434caf16177bcf4dfd1d2f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\b2519d6abbe888dd107b059e30e76986\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\b2519d6abbe888dd107b059e30e76986\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\18d0fc37bb1eb213ab7112d3f2c5f824\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\18d0fc37bb1eb213ab7112d3f2c5f824\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\72df3a5835fcc5a2229db9b0096c49ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\72df3a5835fcc5a2229db9b0096c49ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\ee722d613888e1da015d42e2c07806f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\ee722d613888e1da015d42e2c07806f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\78f3fae7bf7f2fd65b37df5c09fda06a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\78f3fae7bf7f2fd65b37df5c09fda06a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\91d9e6879cc69bcf39c064af78be5b8d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\91d9e6879cc69bcf39c064af78be5b8d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\2f0c585fefcbe0d546de76a98e6f2248\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\2f0c585fefcbe0d546de76a98e6f2248\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\9f283f6094ae5cf90d98669bea65eb34\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\9f283f6094ae5cf90d98669bea65eb34\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\e4768a62e01b1627fa13e2327ceeed86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\e4768a62e01b1627fa13e2327ceeed86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\aeb8b452d129a0a56e3e8e29a7599694\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\aeb8b452d129a0a56e3e8e29a7599694\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\fadf032843446f39f7071522767788ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\fadf032843446f39f7071522767788ed\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\930ea177e67a4eb003da2570e03981b4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\930ea177e67a4eb003da2570e03981b4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\caa74cf91fb344f2fea01d3f7760cd4c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\caa74cf91fb344f2fea01d3f7760cd4c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\67b429cf43cc481eb1f606095240a0d2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\67b429cf43cc481eb1f606095240a0d2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\87bb202e96ab0d7cdb9ea3c05a751914\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\87bb202e96ab0d7cdb9ea3c05a751914\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\195ab011b2e44eb02fb135782224d225\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\195ab011b2e44eb02fb135782224d225\AndroidManifest.xml:20:5-44
+INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\UnityAndroidProject\launcher\src\main\AndroidManifest.xml
+uses-feature#0x00030000
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:19-51
+uses-feature#android.hardware.vulkan.version
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-55
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-72
+activity#com.unity3d.player.Pause_Activity
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-70
+	android:name
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:19-67
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-47:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-51
+	android:launchMode
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-48
+	android:configChanges
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-194
+	android:theme
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-54
+	android:name
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:27-74
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-43:40
+	android:value
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:17-37
+	android:name
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:17-57
+meta-data#android.notch_support
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-46:40
+	android:value
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:17-37
+	android:name
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:17-53
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:9-51:33
+	android:value
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-30
+	android:name
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:9-54:36
+	android:value
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-33
+	android:name
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-47
+meta-data#notch.config
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:9-57:50
+	android:value
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-47
+	android:name
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-40
+meta-data#unity.build-id
+ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:9-60:68
+	android:value
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:13-65
+	android:name
+		ADDED from [:unityLibrary] D:\Desktop\UnityAndroidProject\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-42

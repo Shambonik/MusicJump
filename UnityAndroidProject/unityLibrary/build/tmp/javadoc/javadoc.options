@@ -1,0 +1,8 @@
+-classpath 'C:\\Users\\shamb\\AppData\\Local\\Android\\sdk\\platforms\\android-29\\android.jar;C:\\Users\\shamb\\AppData\\Local\\Android\\sdk\\build-tools\\29.0.3\\core-lambda-stubs.jar'
+-d 'D:\\Desktop\\UnityAndroidProject\\javadoc'
+-doctitle 'unityLibrary API'
+-quiet 
+-windowtitle 'unityLibrary API'
+'D:\\Desktop\\UnityAndroidProject\\unityLibrary\\src\\main\\java\\com\\example\\pause_plugin\\Pause.java'
+'D:\\Desktop\\UnityAndroidProject\\unityLibrary\\src\\main\\java\\com\\unity3d\\player\\Pause_Activity.java'
+'D:\\Desktop\\UnityAndroidProject\\unityLibrary\\src\\main\\java\\com\\unity3d\\player\\UnityPlayerActivity.java'

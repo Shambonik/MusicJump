@@ -44,21 +44,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11270}
+      Script: {instanceID: 11272}
     - Class: 114
-      Script: {instanceID: 11568}
+      Script: {instanceID: 11570}
     - Class: 114
-      Script: {instanceID: 11626}
+      Script: {instanceID: 11628}
     - Class: 114
-      Script: {instanceID: 12326}
+      Script: {instanceID: 12328}
     - Class: 114
-      Script: {instanceID: 13066}
+      Script: {instanceID: 13068}
     - Class: 114
-      Script: {instanceID: 13742}
+      Script: {instanceID: 13744}
     - Class: 114
-      Script: {instanceID: 13872}
+      Script: {instanceID: 13874}
     - Class: 114
-      Script: {instanceID: 14508}
+      Script: {instanceID: 14510}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -613,4 +613,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Desktop/test.apk
+  playerPath: D:/Desktop/UnityAndroidProject

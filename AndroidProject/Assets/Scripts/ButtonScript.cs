@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ButtonScript : MonoBehaviour
 {
-    private const string CLASS_NAME = "com.example.mylibrary2.MyClass";
+    private const string CLASS_NAME = "com.example.pause_plugin.Pause";
     // private const string UnityActivity = "com.unity3d.player.UnityPlayerActivity";
     private static AndroidJavaClass JavaClass;
 
@@ -22,7 +22,7 @@ public class ButtonScript : MonoBehaviour
             AndroidJavaClass ajc = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
             AndroidJavaObject ajo = ajc.GetStatic<AndroidJavaObject>("currentActivity");
             FindObjectOfType<Text>().text = "here2";
-            JavaClass.CallStatic("launchActivity", ajo);
+            JavaClass.CallStatic("Pause_Start", ajo);
             FindObjectOfType<Text>().text = "here3";
         }
         else
