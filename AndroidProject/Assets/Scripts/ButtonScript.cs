@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Класс, обрабатывающий нажатие на кнопку паузы.
+/// </summary>
 public class ButtonScript : MonoBehaviour
 {
     private const string CLASS_NAME = "com.example.pause_plugin.Pause";
@@ -21,6 +24,10 @@ public class ButtonScript : MonoBehaviour
         return res;
     }
 
+    
+    /// <summary>
+    /// Обработка нажатия
+    /// </summary> 
     public void OnClick()
     {
         buttonClicked = true;
