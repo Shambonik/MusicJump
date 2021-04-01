@@ -10,5 +10,6 @@ com/unity3d/player/MainContent.java
  com.unity3d.player.MainContent
 com/unity3d/player/SettingsFragment.java
  com.unity3d.player.SettingsFragment
+ com.unity3d.player.SettingsFragment$1
 com/unity3d/player/ChooseCharacterFragment.java
  com.unity3d.player.ChooseCharacterFragment

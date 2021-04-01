@@ -10,21 +10,30 @@ import androidx.fragment.app.Fragment;
 
 import java.util.ArrayList;
 
-/*
-* Класс - меню выбора персонажа для игры
-* @author Пономарев Денис, Кузин Данил
-*/
+/**
+ * Класс - меню выбора уровня игры, являющийся фрагментом для главного активити
+ * @see MainContent
+ * @author Денис Пономарев
+ **/
 public class ChooseLevelFragment extends Fragment implements View.OnClickListener{
 
-
+    /**
+     * Метод создания фрагмента, в котором можно получить ранее сохраненное состояние фрагмента
+     * @param savedInstanceState - сохраненные параметры фрагмента
+     * */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
 
-    /*
-    * Метод, возвращающий главному меню фрагмент
-    * */
+    /**
+     * Метод создания представления, в котором устанавливается визуальный интерфейс фрагмента
+     * @param inflater - позволяет получить содержимое ресурса layout и передать его во фрагмент
+     * @param container - контейнер, в который будет загружаться фрагмент
+     * @param savedInstanceState - состояние фрагмента
+     * @return возвращает созданное с помощью LayoutInflater представление в виде объекта
+     * View - представление фрагмента меню
+     * */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -34,7 +43,10 @@ public class ChooseLevelFragment extends Fragment implements View.OnClickListene
         return v;
     }
 
-
+    /**
+     * Метод, устанавливающий обработчики нажатия для кнопок меню
+     * @param v - представление фрагмента меню
+     * */
     private void setClickers(View v){
         ArrayList<View> buttons = v.findViewById(R.id.levels_layout).getTouchables();
 
@@ -43,11 +55,10 @@ public class ChooseLevelFragment extends Fragment implements View.OnClickListene
         }
     }
 
-
-    /*
-    Метод, реагирующий на нажатия кнопок в меню выбора персонажа
-    @param v - элемент, над которым произвели действие
-    */
+    /**
+     * Метод - обработчик нажатия на кнопку
+     * @param v - элемент, над которым произошло действие
+     * */
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.to_menu) {

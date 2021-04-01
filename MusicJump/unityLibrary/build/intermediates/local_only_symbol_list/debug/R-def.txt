@@ -15,7 +15,6 @@ id main_layout
 id music_settings
 id second_character
 id second_level
-id seekBar10
 id settings
 id settings_layout
 id sixth_character
@@ -30,6 +29,9 @@ id title_game
 id to_menu
 id top_menu_choosing
 id top_menu_levels
+id turn_off
+id turn_on
+id volumeControl
 layout choose_character
 layout fragments
 layout level_fragment

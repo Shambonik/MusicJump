@@ -1020,7 +1020,6 @@ id search_src_text
 id search_voice_btn
 id second_character
 id second_level
-id seekBar10
 id select_dialog_listview
 id settings
 id settings_layout
@@ -1083,6 +1082,8 @@ id top_menu_levels
 id transitionToEnd
 id transitionToStart
 id triangle
+id turn_off
+id turn_on
 id unchecked
 id uniform
 id unitySurfaceView
@@ -1093,6 +1094,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id volumeControl
 id withText
 id wrap
 id wrap_content
