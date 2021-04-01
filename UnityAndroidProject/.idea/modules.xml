@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/UnityAndroidProject.iml" filepath="$PROJECT_DIR$/UnityAndroidProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/launcher/launcher.iml" filepath="$PROJECT_DIR$/launcher/launcher.iml" />
-      <module fileurl="file://$PROJECT_DIR$/unityLibrary/unityLibrary.iml" filepath="$PROJECT_DIR$/unityLibrary/unityLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/launcher/UnityAndroidProject.launcher.iml" filepath="$PROJECT_DIR$/.idea/modules/launcher/UnityAndroidProject.launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary/UnityAndroidProject.unityLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary/UnityAndroidProject.unityLibrary.iml" />
     </modules>
   </component>
 </project>

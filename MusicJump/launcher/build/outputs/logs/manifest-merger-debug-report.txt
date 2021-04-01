@@ -1,0 +1,245 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:3:1-6:12
+MERGED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:3:1-71:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\9570f34841c72a34d773388f89286f55\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\0cb9ff486f5edb59977e253831b932c8\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [net.frakbot:jumpingbeans:1.3.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\77aeb1e021f377ec2d097e7b1164c739\jetified-jumpingbeans-1.3.0\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.fragment:fragment:1.3.2] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\014e8de0eda2c9fe7ff462f439aaecc1\fragment-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\5dbc57b58024a8f25b5db3778841ef05\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\47185ad723d232e6208c03e6fdcb34a4\appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\f76237f51a0f7e63bcb3c74d5b185ef8\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\84abe344207c34d4a56c6167bf93e6d4\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\f2d63b2c28ee1d548ef27f10c2385caa\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.2] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\a0a67d1cd7812f36ddddafe62cba08b8\activity-1.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\666ad058b1d9c3d7c4bdf80afbc3e64c\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\a9578e6bb35b0664a235fe136bea7086\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\9f97f489f2a5c174c803b63b463795b0\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\b234a824af7fd98a5c54fc0522824a91\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\90ecde5404179819368e2359ab771b50\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\61483b4c6360c6f89f3a9c3087c602ae\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\c168a157020fe31d02d282d75c0d361c\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\2950b983d9e0fb126e48f12fc8f93bb7\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\6484cbab7e86afd24bf27818e9072381\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\73f322ac081b54035a60a6ff5adb5206\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\227916b3f0008a165e996ac0bce20467\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\1bf9ec35ea65fc70bcb81ae030c5cf4b\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\a6ca4f9f3ef5bd7ddcaac8d3ff2baf6c\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\722883bbeda4a23af2c332d7342ff3d3\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\adf8d4ec58c98f5b37616cb4b06b74f4\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:3:1-6:12
+	package
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:3:70-100
+		INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:3:1-6:12
+		INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:3:101-147
+	android:versionCode
+		INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:3:1-6:12
+		INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:3:11-69
+	android:installLocation
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:3:148-188
+supports-screens
+ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:4:3-163
+	android:largeScreens
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:4:78-105
+	android:smallScreens
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:4:21-48
+	android:normalScreens
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:4:49-77
+	android:xlargeScreens
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:4:106-134
+	android:anyDensity
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:4:135-160
+application
+ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:5:3-83
+MERGED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-69:19
+MERGED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-69:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\9570f34841c72a34d773388f89286f55\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\9570f34841c72a34d773388f89286f55\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [net.frakbot:jumpingbeans:1.3.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\77aeb1e021f377ec2d097e7b1164c739\jetified-jumpingbeans-1.3.0\AndroidManifest.xml:11:5-20
+MERGED from [net.frakbot:jumpingbeans:1.3.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\77aeb1e021f377ec2d097e7b1164c739\jetified-jumpingbeans-1.3.0\AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\b234a824af7fd98a5c54fc0522824a91\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\b234a824af7fd98a5c54fc0522824a91\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\90ecde5404179819368e2359ab771b50\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\90ecde5404179819368e2359ab771b50\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\b234a824af7fd98a5c54fc0522824a91\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:5:16-48
+	android:icon
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml:5:49-80
+	android:theme
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:18-68
+uses-sdk
+INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+MERGED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-11:41
+MERGED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-11:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\9570f34841c72a34d773388f89286f55\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\9570f34841c72a34d773388f89286f55\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\0cb9ff486f5edb59977e253831b932c8\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\0cb9ff486f5edb59977e253831b932c8\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [net.frakbot:jumpingbeans:1.3.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\77aeb1e021f377ec2d097e7b1164c739\jetified-jumpingbeans-1.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [net.frakbot:jumpingbeans:1.3.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\77aeb1e021f377ec2d097e7b1164c739\jetified-jumpingbeans-1.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.3.2] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\014e8de0eda2c9fe7ff462f439aaecc1\fragment-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.2] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\014e8de0eda2c9fe7ff462f439aaecc1\fragment-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\5dbc57b58024a8f25b5db3778841ef05\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\5dbc57b58024a8f25b5db3778841ef05\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\47185ad723d232e6208c03e6fdcb34a4\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\47185ad723d232e6208c03e6fdcb34a4\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\f76237f51a0f7e63bcb3c74d5b185ef8\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\f76237f51a0f7e63bcb3c74d5b185ef8\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\84abe344207c34d4a56c6167bf93e6d4\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\84abe344207c34d4a56c6167bf93e6d4\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\f2d63b2c28ee1d548ef27f10c2385caa\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\f2d63b2c28ee1d548ef27f10c2385caa\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.2] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\a0a67d1cd7812f36ddddafe62cba08b8\activity-1.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.2] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\a0a67d1cd7812f36ddddafe62cba08b8\activity-1.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\666ad058b1d9c3d7c4bdf80afbc3e64c\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\666ad058b1d9c3d7c4bdf80afbc3e64c\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\a9578e6bb35b0664a235fe136bea7086\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\a9578e6bb35b0664a235fe136bea7086\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\9f97f489f2a5c174c803b63b463795b0\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\9f97f489f2a5c174c803b63b463795b0\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\b234a824af7fd98a5c54fc0522824a91\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\b234a824af7fd98a5c54fc0522824a91\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\90ecde5404179819368e2359ab771b50\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\90ecde5404179819368e2359ab771b50\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\61483b4c6360c6f89f3a9c3087c602ae\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\61483b4c6360c6f89f3a9c3087c602ae\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\c168a157020fe31d02d282d75c0d361c\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\c168a157020fe31d02d282d75c0d361c\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\2950b983d9e0fb126e48f12fc8f93bb7\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\2950b983d9e0fb126e48f12fc8f93bb7\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\6484cbab7e86afd24bf27818e9072381\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\6484cbab7e86afd24bf27818e9072381\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\73f322ac081b54035a60a6ff5adb5206\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\73f322ac081b54035a60a6ff5adb5206\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\227916b3f0008a165e996ac0bce20467\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\227916b3f0008a165e996ac0bce20467\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\1bf9ec35ea65fc70bcb81ae030c5cf4b\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\1bf9ec35ea65fc70bcb81ae030c5cf4b\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\a6ca4f9f3ef5bd7ddcaac8d3ff2baf6c\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\a6ca4f9f3ef5bd7ddcaac8d3ff2baf6c\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\722883bbeda4a23af2c332d7342ff3d3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\722883bbeda4a23af2c332d7342ff3d3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\adf8d4ec58c98f5b37616cb4b06b74f4\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\shamb\.gradle\caches\transforms-2\files-2.1\adf8d4ec58c98f5b37616cb4b06b74f4\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Documents\GitHub\MusicJump\MusicJump\launcher\src\main\AndroidManifest.xml
+uses-feature#0x00030000
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-51
+uses-feature#android.hardware.vulkan.version
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-55
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-72
+activity#com.unity3d.player.MainContent
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-36:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-50
+	android:name
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:27-74
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-55:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-50
+	android:launchMode
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-48
+	android:configChanges
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-194
+	android:theme
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-54
+	android:name
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-66
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-51:40
+	android:value
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:17-37
+	android:name
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:17-57
+meta-data#android.notch_support
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-54:40
+	android:value
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:17-37
+	android:name
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:17-53
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:9-59:33
+	android:value
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-30
+	android:name
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:9-62:36
+	android:value
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-33
+	android:name
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-47
+meta-data#notch.config
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:9-65:50
+	android:value
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-47
+	android:name
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-40
+meta-data#unity.build-id
+ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:9-68:68
+	android:value
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-65
+	android:name
+		ADDED from [:unityLibrary] D:\Documents\GitHub\MusicJump\MusicJump\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-42
