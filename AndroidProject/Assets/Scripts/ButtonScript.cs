@@ -6,28 +6,37 @@ using UnityEngine.UI;
 public class ButtonScript : MonoBehaviour
 {
     private const string CLASS_NAME = "com.example.pause_plugin.Pause";
-    // private const string UnityActivity = "com.unity3d.player.UnityPlayerActivity";
     private static AndroidJavaClass JavaClass;
+    private bool buttonClicked = false;
 
     public void Start()
     {
-        JavaClass = new AndroidJavaClass(CLASS_NAME);
+        // JavaClass = new AndroidJavaClass(CLASS_NAME);
+    }
+
+    public bool buttonWasClicked()
+    {
+        bool res = buttonClicked;
+        buttonClicked = false;
+        return res;
     }
 
     public void OnClick()
     {
-        if(JavaClass!=null)
-        {
-            FindObjectOfType<Text>().text = "here1";
-            AndroidJavaClass ajc = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-            AndroidJavaObject ajo = ajc.GetStatic<AndroidJavaObject>("currentActivity");
-            FindObjectOfType<Text>().text = "here2";
-            JavaClass.CallStatic("Pause_Start", ajo);
-            FindObjectOfType<Text>().text = "here3";
-        }
-        else
-        {
-            FindObjectOfType<Text>().text = "here";
-        }
+        buttonClicked = true;
+        Debug.Log("Clicked");
+        // if(JavaClass!=null)
+        // {
+        //     FindObjectOfType<Text>().text = "here1";
+        //     AndroidJavaClass ajc = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+        //     AndroidJavaObject ajo = ajc.GetStatic<AndroidJavaObject>("currentActivity");
+        //     FindObjectOfType<Text>().text = "here2";
+        //     JavaClass.CallStatic("Pause_Start", ajo);
+        //     FindObjectOfType<Text>().text = "here3";
+        // }
+        // else
+        // {
+        //     FindObjectOfType<Text>().text = "here";
+        // }
     }
 }

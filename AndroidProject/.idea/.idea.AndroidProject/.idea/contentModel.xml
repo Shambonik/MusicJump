@@ -9,6 +9,9 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="ButtonScript.cs" t="Include" />
+          <e p="CameraScript.cs" t="Include" />
+          <e p="ControlManager.cs" t="Include" />
+          <e p="PlayerScript.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

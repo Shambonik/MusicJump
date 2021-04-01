@@ -20,28 +20,347 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f7a3e11-8376-434a-851a-39230493adbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Android/classes.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Android/classes.jar.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Android/pause_plugin-release.aar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Android/pause_plugin-release.aar.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ControlManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ControlManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Characters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Characters/unnamed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Characters/unnamed.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/LevelPalette.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/LevelPalette.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_10.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_10.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_100.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_100.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_101.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_101.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_102.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_102.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_103.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_103.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_104.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_104.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_105.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_105.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_106.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_106.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_107.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_107.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_108.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_108.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_109.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_109.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_11.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_11.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_110.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_110.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_111.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_111.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_112.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_112.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_113.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_113.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_114.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_114.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_115.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_115.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_116.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_116.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_117.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_117.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_118.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_118.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_119.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_119.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_12.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_12.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_120.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_120.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_121.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_121.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_122.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_122.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_123.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_123.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_124.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_124.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_125.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_125.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_126.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_126.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_127.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_127.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_128.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_128.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_129.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_129.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_13.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_13.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_130.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_130.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_131.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_131.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_132.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_132.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_133.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_133.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_134.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_134.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_135.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_135.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_136.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_136.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_137.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_137.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_138.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_138.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_139.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_139.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_14.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_14.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_140.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_140.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_141.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_141.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_142.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_142.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_143.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_143.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_144.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_144.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_145.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_145.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_146.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_146.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_147.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_147.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_148.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_148.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_149.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_149.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_15.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_15.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_150.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_150.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_151.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_151.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_152.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_152.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_153.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_153.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_154.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_154.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_155.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_155.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_16.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_16.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_17.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_17.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_18.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_18.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_19.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_19.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_20.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_20.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_21.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_21.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_22.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_22.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_23.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_23.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_24.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_24.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_25.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_25.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_26.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_26.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_27.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_27.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_28.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_28.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_29.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_29.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_30.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_30.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_31.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_31.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_32.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_32.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_33.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_33.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_34.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_34.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_35.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_35.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_36.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_36.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_37.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_37.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_38.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_38.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_39.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_39.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_40.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_40.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_41.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_41.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_42.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_42.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_43.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_43.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_44.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_44.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_45.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_45.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_46.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_46.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_47.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_47.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_48.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_48.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_49.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_49.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_50.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_50.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_51.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_51.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_52.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_52.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_53.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_53.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_54.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_54.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_55.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_55.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_56.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_56.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_57.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_57.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_58.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_58.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_59.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_59.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_60.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_60.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_61.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_61.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_62.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_62.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_63.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_63.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_64.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_64.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_65.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_65.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_66.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_66.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_67.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_67.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_68.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_68.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_69.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_69.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_70.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_70.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_71.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_71.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_72.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_72.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_73.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_73.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_74.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_74.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_75.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_75.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_76.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_76.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_77.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_77.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_78.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_78.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_79.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_79.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_8.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_8.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_80.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_80.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_81.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_81.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_82.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_82.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_83.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_83.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_84.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_84.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_85.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_85.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_86.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_86.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_87.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_87.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_88.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_88.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_89.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_89.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_9.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_9.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_90.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_90.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_91.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_91.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_92.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_92.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_93.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_93.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_94.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_94.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_95.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_95.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_96.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_96.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_97.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_97.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_98.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_98.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_99.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Tiles/tiles_spritesheet_99.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/tiles_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/tiles_spritesheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AndroidProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AndroidProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AndroidProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AndroidProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/mylibrary2-release.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/mylibrary2-release.aar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/classes.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/pause_plugin-release.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/pause_plugin-release.aar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/06/06eadd03a9ba0edac47e963b9233d1e9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/17/179f90aa6b3a7f9b10c0204f8758720d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2d/2d07a2e463b86f3b1b2c7d57bca894d3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/82/82ab8e63ea42b6949e628f13a0ce2515" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/86/86b2e10932056a39cfd93dc79d2368cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8a/8a3da531bba44a2b9f5cc3745bb3e9d3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a6/a6cf8eb4a0918aa8b6dbcbcb72f37abe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b7/b722b38e6c52064854ae993995338d30" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c0/c0e8b913b7a7740c4ca73574730f2287" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c4/c48ef31273ce20c4a5af47640b3c89e1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f6/f6473ddfe36d97d4131bb1b9457784bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/11/1138f4be02b17ed0b441342ae8c70b63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/65/650c0a73590a4d66f638ccd397f03a0c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastBuild.buildreport" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/Managed/Unity.2D.Animation.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/Managed/Unity.2D.Animation.Runtime.dll" afterDir="false" />
@@ -61,11 +380,26 @@
       <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/boot.config" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/boot.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/data.unity3d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/Data/data.unity3d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Android/ScriptsOnlyCache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Android/ScriptsOnlyCache.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4c969a-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/4c969a-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/cc2798-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/cc2798-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe11.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe11.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe8.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +409,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControlManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ControlManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +432,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3495212" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3009576" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -108,10 +450,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="11416">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="11416" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -130,6 +472,7 @@
       <workItem from="1615979271690" duration="399000" />
       <workItem from="1616456365896" duration="1908000" />
       <workItem from="1616980007392" duration="1704000" />
+      <workItem from="1617230410402" duration="11646000" />
     </task>
     <servers />
   </component>
@@ -159,9 +502,77 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1615965256162" />
+    <state width="746" height="288" key="GridCell.Tab.0.bottom" timestamp="1617242165297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617242165296" />
+    <state width="746" height="288" key="GridCell.Tab.0.center" timestamp="1617242165296">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617242165296" />
+    <state width="746" height="288" key="GridCell.Tab.0.left" timestamp="1617242165296">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617242165296" />
+    <state width="746" height="288" key="GridCell.Tab.0.right" timestamp="1617242165296">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617242165296" />
+    <state width="746" height="288" key="GridCell.Tab.1.bottom" timestamp="1617242165297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617242165297" />
+    <state width="746" height="288" key="GridCell.Tab.1.center" timestamp="1617242165297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1617242165297" />
+    <state width="746" height="288" key="GridCell.Tab.1.left" timestamp="1617242165297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1617242165297" />
+    <state width="746" height="288" key="GridCell.Tab.1.right" timestamp="1617242165297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1617242165297" />
+    <state width="746" height="288" key="GridCell.Tab.2.bottom" timestamp="1617242165297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617242165297" />
+    <state width="746" height="288" key="GridCell.Tab.2.center" timestamp="1617242165297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1617242165297" />
+    <state width="746" height="288" key="GridCell.Tab.2.left" timestamp="1617242165297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1617242165297" />
+    <state width="746" height="288" key="GridCell.Tab.2.right" timestamp="1617242165297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1617242165297" />
+    <state width="746" height="288" key="GridCell.Tab.3.bottom" timestamp="1617242165297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617242165297" />
+    <state width="746" height="288" key="GridCell.Tab.3.center" timestamp="1617242165297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1617242165297" />
+    <state width="746" height="288" key="GridCell.Tab.3.left" timestamp="1617242165297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1617242165297" />
+    <state width="746" height="288" key="GridCell.Tab.3.right" timestamp="1617242165297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="288" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1617242165297" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1616985296787">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1616985296787" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1617239836128">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1617239836128" />
   </component>
 </project>
