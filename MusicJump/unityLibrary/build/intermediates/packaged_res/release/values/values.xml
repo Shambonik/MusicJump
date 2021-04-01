@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Runner</string>
+    <string name="choose_character">CHOOSE CHARACTER</string>
+    <string name="choose_level">CHOOSE LEVEL</string>
+    <string name="fifth_character">Fifth</string>
+    <string name="fifth_lvl">Fifth LVL</string>
+    <string name="first_character">First</string>
+    <string name="first_lvl">First LVL</string>
+    <string name="fourth_character">Fourth</string>
+    <string name="fourth_lvl">Fourth LVL</string>
+    <string name="second_character">Second</string>
+    <string name="second_lvl">Second LVL</string>
+    <string name="settings">SETTINGS</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_music">Music</string>
+    <string name="settings_volume">Volume</string>
+    <string name="sixth_character">Sixth</string>
+    <string name="sixth_lvl">Sixth LVL</string>
+    <string name="start_play">PLAY</string>
+    <string name="third_character">Third</string>
+    <string name="third_lvl">Third LVL</string>
+    <string name="title_game">Эмулятор жизни Донила</string>
+    <string name="to_menu">Назад</string>
+    <style name="BaseUnityTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+</style>
+    <style name="UnityThemeSelector" parent="BaseUnityTheme">
+	<item name="android:windowBackground">@android:color/black</item>
+</style>
+    <style name="UnityThemeSelector.Translucent" parent="@style/UnityThemeSelector">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+</style>
+</resources>
