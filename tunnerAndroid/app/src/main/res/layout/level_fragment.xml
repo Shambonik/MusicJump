@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent" android:id="@+id/levels_layout">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:id="@+id/top_menu_levels">
+        <Button
+                android:text="@string/to_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/to_menu"/>
+        <TextView
+                android:text="@string/choose_level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView7" android:gravity="center"/>
+    </LinearLayout>
+    <HorizontalScrollView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:gravity="center" android:layout_gravity="center">
+            <Button
+                    android:text="@string/first_lvl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/first_level"
+                    style="@style/Widget.AppCompat.Button"/>
+            <Button
+                    android:text="@string/second_lvl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/second_level" android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button"/>
+            <Button
+                    android:text="@string/third_lvl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/third_level" android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button"/>
+            <Button
+                    android:text="@string/fourth_lvl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/fourth_level" android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button"/>
+            <Button
+                    android:text="@string/fifth_lvl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/fifth_level" android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button"/>
+            <Button
+                    android:text="@string/sixth_lvl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/sixth_level" android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
