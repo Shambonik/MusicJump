@@ -17,7 +17,7 @@ import java.util.Set;
 @NoArgsConstructor
 public class Skin{
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     private String name;

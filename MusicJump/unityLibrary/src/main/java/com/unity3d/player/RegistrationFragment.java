@@ -13,6 +13,8 @@ import androidx.fragment.app.Fragment;
 import com.unity3d.player.model.PostRegistrationUser;
 import com.unity3d.player.retrofit.ApiService;
 import com.unity3d.player.retrofit.RetrofitClient;
+import lombok.SneakyThrows;
+import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -22,6 +24,7 @@ import java.util.ArrayList;
 public class RegistrationFragment extends Fragment implements View.OnClickListener{
     private ApiService apiService;
     private View v;
+    private TextView textResponse;
 
 
     /**
@@ -43,7 +46,7 @@ public class RegistrationFragment extends Fragment implements View.OnClickListen
         EditText psw2 = (EditText) v.findViewById(R.id.pswConfirm);
         Button button = (Button) v.findViewById(R.id.registration_submit);
 
-//        TextView response = (TextView) v.findViewById(R.id.notification);
+        textResponse = (TextView) v.findViewById(R.id.notification);
 
         apiService = RetrofitClient.getInstance().getApi();
 
@@ -60,23 +63,27 @@ public class RegistrationFragment extends Fragment implements View.OnClickListen
 
     public void sendUser(String username, String password, String confirm_password){
         PostRegistrationUser user = new PostRegistrationUser(username, password, confirm_password);
-        Call<String> call = apiService.savePost(user);
-        call.enqueue(new Callback<String>() {
+        Call<ResponseBody> call = apiService.savePost(user);
+        call.enqueue(new Callback<ResponseBody>() {
+            @SneakyThrows
             @Override
-            public void onResponse(Call<String> call, Response<String> response) {
+            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                 if(response.isSuccessful()){
+                    String str = response.body().string();
+                    if(str.equals("Null field")
+                            || str.equals("User exists")
+                            || str.equals("Different passwords")){
+                        textResponse.setVisibility(1);
+                        textResponse.setText(str);
+                        return;
+                    }
+
                     AlertDialog.Builder adb = new AlertDialog.Builder(v.getContext());
-                    adb.setTitle(response.body());
+                    adb.setTitle(str);
                     adb.setPositiveButton("Перейти на страницу авторизации", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
                             ((MainContent) requireActivity()).openFragment(4);
-                            dialogInterface.cancel();
-                        }
-                    });
-                    adb.setNegativeButton("Остаться на странице", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
                             dialogInterface.cancel();
                         }
                     });
@@ -86,7 +93,11 @@ public class RegistrationFragment extends Fragment implements View.OnClickListen
             }
 
             @Override
-            public void onFailure(Call<String> call, Throwable t) {
+            public void onFailure(Call<ResponseBody> call, Throwable t) {
+                AlertDialog.Builder adb = new AlertDialog.Builder(v.getContext());
+                adb.setTitle("Ошибочка");
+                adb.create();
+                adb.show();
 
             }
         });

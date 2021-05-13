@@ -53,6 +53,11 @@ public class UserService implements UserDetailsService {
     }
 
     public ResponseEntity<String> addUser(RegistrationDTO registration, boolean admin){
+        if((registration.getPassword() == null || registration.getConfirm_password() == null || registration.getUsername() == null)
+            ||(registration.getPassword().equals("") || registration.getConfirm_password().equals("")
+            || registration.getUsername().equals(""))){
+            return new ResponseEntity<>("Null field", HttpStatus.OK);
+        }
         User userFromDb = userRepo.findUserByUsername(registration.getUsername());
         if (userFromDb != null) {
             return new ResponseEntity<>("User exists", HttpStatus.OK);
