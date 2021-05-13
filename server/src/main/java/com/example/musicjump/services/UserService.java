@@ -1,13 +1,14 @@
 package com.example.musicjump.services;
 
 import com.example.musicjump.DTO.RegistrationDTO;
-import com.example.musicjump.DTO.SuccessDTO;
 import com.example.musicjump.models.Role;
 import com.example.musicjump.models.Skin;
 import com.example.musicjump.models.User;
 import com.example.musicjump.repos.SkinRepo;
 import com.example.musicjump.repos.UserRepo;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -44,19 +45,19 @@ public class UserService implements UserDetailsService {
         }
     }
 
-    public SuccessDTO addUser(RegistrationDTO registration, boolean admin){
+    public ResponseEntity<String> addUser(RegistrationDTO registration, boolean admin){
         User userFromDb = userRepo.findUserByUsername(registration.getUsername());
         if (userFromDb != null) {
-            return new SuccessDTO(false, "User exists");
+            return new ResponseEntity<>("User exists", HttpStatus.OK);
         }
         if(!registration.getPassword().equals(registration.getConfirm_password())){
-            return new SuccessDTO(false, "Different passwords");
+            return new ResponseEntity<>("Different passwords", HttpStatus.OK);
         }
         User user = new User();
         user.setUsername(registration.getUsername());
         user.setPassword(passwordEncoder.encode(registration.getPassword()));
         user.setActive(true);
-        user.setSkins(new HashSet<Skin>());
+        user.setSkins(new HashSet<>());
         addOpenedSkinsToUser(user);
         if(admin){
             user.setRoles(Collections.singleton(Role.ADMIN));
@@ -65,6 +66,6 @@ public class UserService implements UserDetailsService {
             user.setRoles(Collections.singleton(Role.USER));
         }
         userRepo.save(user);
-        return new SuccessDTO(true, "");
+        return new ResponseEntity<>("Success", HttpStatus.OK);
     }
 }

@@ -1,6 +1,7 @@
 package com.example.musicjump.rest_controllers;
 
-import com.example.musicjump.DTO.SuccessDTO;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,13 +9,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/auth")
 public class AuthRestController {
+
     @GetMapping("not_success_auth")
-    public SuccessDTO notSuccess() {
-        return new SuccessDTO(false, "User not found");
+    public ResponseEntity<String> notSuccess() {
+        return new ResponseEntity<>("User not found", HttpStatus.OK);
     }
 
     @GetMapping("success_auth")
-    public SuccessDTO success() {
-        return new SuccessDTO(true, "");
+    public ResponseEntity<String> success() {
+        return new ResponseEntity<>("Success", HttpStatus.OK);
     }
 }
