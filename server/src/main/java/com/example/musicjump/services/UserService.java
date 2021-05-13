@@ -15,8 +15,11 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import javax.websocket.server.PathParam;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 @Service
 @RequiredArgsConstructor
@@ -43,6 +46,10 @@ public class UserService implements UserDetailsService {
                 user.getSkins().add(skin);
             }
         }
+    }
+
+    public ResponseEntity<Set<Skin>> getListOfSkins(String username){
+        return new ResponseEntity<>(userRepo.findUserByUsername(username).getSkins(), HttpStatus.OK);
     }
 
     public ResponseEntity<String> addUser(RegistrationDTO registration, boolean admin){

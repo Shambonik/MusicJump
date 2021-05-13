@@ -22,7 +22,7 @@ public class RegisterController {
 
     @PostMapping("/admin")
     public String addAdmin(RegistrationDTO registration){
-        if(userService.addUser(registration, true).isSuccess()){
+        if(userService.addUser(registration, true).getBody().equals("Success")){
             return "redirect:/auth";
         }
         return "redirect:/reg";
