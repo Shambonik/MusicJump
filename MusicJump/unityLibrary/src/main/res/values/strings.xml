@@ -30,4 +30,5 @@
     <string name="fifth_lvl">Fifth LVL</string>
     <string name="sixth_lvl">Sixth LVL</string>
     <string name="choose_level">CHOOSE LEVEL</string>
+    <string name="login">Login</string>
 </resources>

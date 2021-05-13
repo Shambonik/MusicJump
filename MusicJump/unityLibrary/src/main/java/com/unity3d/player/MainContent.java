@@ -101,6 +101,12 @@ public class MainContent extends AppCompatActivity{
             case 3: {
                 fragmentTransaction.replace(R.id.fragment_container_view, new SettingsFragment());
             } break;
+            case 4: {
+                fragmentTransaction.replace(R.id.fragment_container_view, new LoginFragment());
+            } break;
+            case 5: {
+                fragmentTransaction.replace(R.id.fragment_container_view, new RegistrationFragment());
+            } break;
         }
 
         fragmentTransaction.commit();
@@ -136,7 +142,7 @@ public class MainContent extends AppCompatActivity{
     }
 
     /**
-     * Метод вызывается, когда игрок выбриает уровень,
+     * Метод вызывается, когда игрок выбирает уровень,
      * запускается активити, созданное в Unity
      * */
     public void startUnityActivity(){

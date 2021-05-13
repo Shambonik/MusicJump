@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:id="@+id/login_layout"
+        android:layout_gravity="center|center_horizontal|center_vertical">
+    <Button
+            android:text="@string/to_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/to_menu"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent" android:paddingHorizontal="10dp"
+            android:layout_marginHorizontal="50dp"
+            android:id="@+id/linearLayout">
+        <Button
+                android:text="Registration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/registr"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/log" android:hint="Login"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/psw" android:hint="Password" android:autofillHints=""/>
+        <Button
+                android:text="Отправить"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/registration_submit"
+                android:gravity="center|center_horizontal|center_vertical" android:layout_gravity="center"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -80,6 +80,10 @@ public class MainFragment extends Fragment implements View.OnClickListener{
             ((MainContent) requireActivity()).openFragment(2);
         } else if (id == R.id.settings) {
             ((MainContent) requireActivity()).openFragment(3);
+        } else if (id == R.id.login) {
+            ((MainContent) requireActivity()).openFragment(4);
+        } else if (id == R.id.registr) {
+            ((MainContent) requireActivity()).openFragment(5);
         }
     }
 }

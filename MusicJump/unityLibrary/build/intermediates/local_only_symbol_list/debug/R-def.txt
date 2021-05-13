@@ -11,8 +11,18 @@ id fourth_level
 id fragment_container_view
 id language
 id levels_layout
+id linearLayout
+id log
+id login
+id login_layout
 id main_layout
 id music_settings
+id notification
+id psw
+id pswConfirm
+id registr
+id registr_layout
+id registration_submit
 id second_character
 id second_level
 id settings
@@ -35,7 +45,9 @@ id volumeControl
 layout choose_character
 layout fragments
 layout level_fragment
+layout login_page
 layout main_fragment
+layout registration_form
 layout settings
 raw music
 string app_name
@@ -47,6 +59,7 @@ string first_character
 string first_lvl
 string fourth_character
 string fourth_lvl
+string login
 string second_character
 string second_lvl
 string settings
@@ -63,3 +76,4 @@ string to_menu
 style BaseUnityTheme
 style UnityThemeSelector
 style UnityThemeSelector.Translucent
+xml network_security_config
