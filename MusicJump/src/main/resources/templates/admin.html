@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div th:each = "entry: ${list}" style="border: 2px dashed; padding: 10px;">
+        <h3 th:text="${entry.getName()}"></h3>
+        <br>
+        <span th:text="${entry.getCost()}"></span>
+    </div>
+    <form th:action="@{/admin/add_skin}" method="post" th:object="${skin}">
+        <div><label> Name : <input type="text" th:field="*{name}"/> </label></div>
+        <div><label> Cost: <input type="number" th:field="*{cost}" min="0"/> </label></div>
+        <div><label> Give to all users: <input type="text" th:field="*{allUsers}"/> </label></div>
+        <div><input type="submit" value="Register"/></div>
+    </form>
+</body>
+</html>

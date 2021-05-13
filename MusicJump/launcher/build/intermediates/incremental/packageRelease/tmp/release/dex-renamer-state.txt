@@ -1,0 +1,4 @@
+#Thu Apr 01 23:17:23 MSK 2021
+base.0=D\:\\Documents\\GitHub\\MusicJump\\MusicJump\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
